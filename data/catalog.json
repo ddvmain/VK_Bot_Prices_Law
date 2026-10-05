@@ -1,0 +1,411 @@
+{
+  "sections": [
+    {
+      "id": "documents",
+      "title": "Подготовка процессуальных и правовых документов",
+      "emoji": "📄",
+      "note": "Нижняя граница вилки — типовые споры МСБ (поставка, подряд, аренда, взыскание дебиторской задолженности) с ценой иска до 2 млн руб. Верхняя граница — споры с ценой иска свыше 10 млн руб., множественностью лиц, налоговые споры и споры, требующие глубокого анализа судебной практики."
+    },
+    {
+      "id": "court",
+      "title": "Участие в судебном процессе (за одно заседание / судодень)",
+      "emoji": "⚖️",
+      "note": "Транспортные расходы, проживание и командировочные при выезде за пределы Нижнего Новгорода оплачиваются заказчиком дополнительно по фактическим затратам."
+    },
+    {
+      "id": "consult",
+      "title": "Устные консультации",
+      "emoji": "💬",
+      "note": "Минимальная тарифицируемая единица — 1 час. Консультация с предварительным изучением документов оплачивается по верхней границе вилки."
+    },
+    {
+      "id": "contracts",
+      "title": "Договорная работа и корпоративные услуги",
+      "emoji": "📑",
+      "note": null
+    },
+    {
+      "id": "subscription",
+      "title": "Абонентское обслуживание (юрлица и ИП)",
+      "emoji": "🗓",
+      "note": "Часы сверх пакета — по ставке 8 000 руб./час, максимум столько же часов, сколько включено в тариф."
+    },
+    {
+      "id": "packages",
+      "title": "Пакетные продукты для МСБ (фиксированная цена)",
+      "emoji": "📦",
+      "note": null
+    }
+  ],
+  "services": [
+    {
+      "id": "doc_letter",
+      "section": "documents",
+      "short_title": "Деловое / регуляторное письмо",
+      "title": "Подготовка делового / регуляторного письма",
+      "emoji": "📄",
+      "description": "Подготовка делового письма или письма в адрес регулирующего органа.",
+      "price": {"kind": "from", "from": 5000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "doc_claim",
+      "section": "documents",
+      "short_title": "Претензия / ответ на претензию",
+      "title": "Подготовка досудебной претензии / ответ на претензию",
+      "emoji": "📄",
+      "description": "Подготовка досудебной претензии или ответа на полученную претензию.",
+      "price": {"kind": "range", "from": 10000, "to": 25000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "doc_lawsuit",
+      "section": "documents",
+      "short_title": "Исковое заявление",
+      "title": "Подготовка искового заявления",
+      "emoji": "📄",
+      "description": "Подготовка искового заявления для обращения в суд.",
+      "price": {"kind": "range", "from": 20000, "to": 35000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "doc_response",
+      "section": "documents",
+      "short_title": "Отзыв (возражения) на иск",
+      "title": "Подготовка отзыва (возражений) на иск",
+      "emoji": "📄",
+      "description": "Подготовка правовой позиции ответчика — отзыва (возражений) на поданный иск.",
+      "price": {"kind": "range", "from": 20000, "to": 35000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "doc_appeal",
+      "section": "documents",
+      "short_title": "Апелляционная жалоба",
+      "title": "Подготовка апелляционной жалобы",
+      "emoji": "📄",
+      "description": "Подготовка апелляционной жалобы на решение суда первой инстанции.",
+      "price": {"kind": "range", "from": 20000, "to": 40000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "doc_appeal_resp",
+      "section": "documents",
+      "short_title": "Отзыв на апелляц. жалобу",
+      "title": "Подготовка отзыва на апелляционную жалобу",
+      "emoji": "📄",
+      "description": "Подготовка отзыва на апелляционную жалобу другой стороны.",
+      "price": {"kind": "range", "from": 20000, "to": 40000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "doc_cassation",
+      "section": "documents",
+      "short_title": "Кассационная жалоба",
+      "title": "Подготовка кассационной жалобы",
+      "emoji": "📄",
+      "description": "Подготовка кассационной жалобы на судебные акты, вступившие в силу.",
+      "price": {"kind": "range", "from": 25000, "to": 50000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "doc_cassation_resp",
+      "section": "documents",
+      "short_title": "Отзыв на кассац. жалобу",
+      "title": "Подготовка отзыва на кассационную жалобу",
+      "emoji": "📄",
+      "description": "Подготовка отзыва на кассационную жалобу другой стороны.",
+      "price": {"kind": "range", "from": 20000, "to": 45000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "court_1",
+      "section": "court",
+      "short_title": "Суд 1-й инстанции",
+      "title": "Участие в суде первой инстанции (арбитраж, СОЮ)",
+      "emoji": "⚖️",
+      "description": "Представительство в заседании суда первой инстанции — арбитражного, общей юрисдикции или мирового судьи. Цена указана за одно заседание.",
+      "price": {
+        "kind": "regional",
+        "unit": "rub_per_session",
+        "nn": {"kind": "range", "from": 20000, "to": 25000},
+        "other": {"kind": "range", "from": 45000, "to": 60000}
+      },
+      "price_note": null
+    },
+    {
+      "id": "court_2",
+      "section": "court",
+      "short_title": "Суд апелляции",
+      "title": "Участие в суде апелляционной инстанции",
+      "emoji": "⚖️",
+      "description": "Представительство в заседании апелляционной инстанции. Цена указана за одно заседание.",
+      "price": {
+        "kind": "regional",
+        "unit": "rub_per_session",
+        "nn": {"kind": "range", "from": 25000, "to": 35000},
+        "other": {"kind": "range", "from": 50000, "to": 70000}
+      },
+      "price_note": null
+    },
+    {
+      "id": "court_3",
+      "section": "court",
+      "short_title": "Суд кассации",
+      "title": "Участие в суде кассационной инстанции",
+      "emoji": "⚖️",
+      "description": "Представительство в заседании кассационной инстанции. Цена указана за одно заседание.",
+      "price": {
+        "kind": "regional",
+        "unit": "rub_per_session",
+        "nn": {"kind": "range", "from": 30000, "to": 40000},
+        "other": {"kind": "range", "from": 60000, "to": 80000}
+      },
+      "price_note": null
+    },
+    {
+      "id": "court_online",
+      "section": "court",
+      "short_title": "Участие онлайн (ВКС)",
+      "title": "Участие онлайн (ВКС / веб-конференция)",
+      "emoji": "⚖️",
+      "description": "Участие в заседании дистанционно — по видео-конференц-связи или в веб-конференции.",
+      "price": {
+        "kind": "regional",
+        "unit": "rub_per_session",
+        "nn": {"kind": "range", "from": 20000, "to": 25000},
+        "other": {"kind": "range", "from": 25000, "to": 50000}
+      },
+      "price_note": null
+    },
+    {
+      "id": "court_turnkey",
+      "section": "court",
+      "short_title": "Ведение дела «под ключ»",
+      "title": "Ведение дела «под ключ» (первая инстанция)",
+      "emoji": "⚖️",
+      "description": "Все заседания первой инстанции и подготовка документов в одной услуге. Для Нижнего Новгорода — от 90 000 ₽, для Москвы и Санкт-Петербурга — от 150 000 ₽.",
+      "price": {
+        "kind": "regional",
+        "unit": "rub_per_session",
+        "nn": {"kind": "from", "from": 90000},
+        "other": {"kind": "from", "from": 150000}
+      },
+      "price_note": null
+    },
+    {
+      "id": "cons_express",
+      "section": "consult",
+      "short_title": "Экспресс-диагностика (бесплатно)",
+      "title": "Первичная экспресс-диагностика для нового клиента (до 30 мин)",
+      "emoji": "💬",
+      "description": "Бесплатная первичная диагностика для нового клиента продолжительностью до 30 минут.",
+      "price": {"kind": "free", "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "cons_legal",
+      "section": "consult",
+      "short_title": "Консультация: право",
+      "title": "Консультация по правовым вопросам",
+      "emoji": "💬",
+      "description": "Устная консультация по правовым вопросам.",
+      "price": {"kind": "range", "from": 8000, "to": 15000, "unit": "rub_per_hour"},
+      "price_note": null
+    },
+    {
+      "id": "cons_acc",
+      "section": "consult",
+      "short_title": "Консультация: бухучёт и налоги",
+      "title": "Консультация по бухгалтерскому и налоговому учёту",
+      "emoji": "💬",
+      "description": "Устная консультация по вопросам бухгалтерского и налогового учёта.",
+      "price": {"kind": "range", "from": 10000, "to": 20000, "unit": "rub_per_hour"},
+      "price_note": null
+    },
+    {
+      "id": "cons_fin",
+      "section": "consult",
+      "short_title": "Консультация: финансы",
+      "title": "Консультация по финансовым вопросам",
+      "emoji": "💬",
+      "description": "Устная консультация по финансовым вопросам.",
+      "price": {"kind": "range", "from": 10000, "to": 20000, "unit": "rub_per_hour"},
+      "price_note": null
+    },
+    {
+      "id": "cons_struct",
+      "section": "consult",
+      "short_title": "Консультация: структура бизнеса",
+      "title": "Консультация по структуре управления и структурированию бизнеса",
+      "emoji": "💬",
+      "description": "Устная консультация по структуре управления и структурированию бизнеса.",
+      "price": {"kind": "range", "from": 15000, "to": 30000, "unit": "rub_per_hour"},
+      "price_note": null
+    },
+    {
+      "id": "cons_other",
+      "section": "consult",
+      "short_title": "Прочие консультации",
+      "title": "Прочие консультации",
+      "emoji": "💬",
+      "description": "Устные консультации по иным вопросам, не вошедшим в другие позиции.",
+      "price": {"kind": "range", "from": 8000, "to": 20000, "unit": "rub_per_hour"},
+      "price_note": null
+    },
+    {
+      "id": "cons_memo",
+      "section": "consult",
+      "short_title": "Письменное заключение",
+      "title": "Письменное заключение (меморандум) по итогам консультации",
+      "emoji": "💬",
+      "description": "Письменный меморандум, фиксирующий итоги консультации.",
+      "price": {"kind": "range", "from": 25000, "to": 75000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "contract_template",
+      "section": "contracts",
+      "short_title": "Разработка типового договора",
+      "title": "Разработка типового договора",
+      "emoji": "📑",
+      "description": "Разработка типового договора для использования в бизнесе клиента.",
+      "price": {"kind": "range", "from": 20000, "to": 50000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "contract_review",
+      "section": "contracts",
+      "short_title": "Экспертиза договора контрагента",
+      "title": "Правовая экспертиза договора контрагента",
+      "emoji": "📑",
+      "description": "Правовая экспертиза договора, предложенного контрагентом.",
+      "price": {"kind": "range", "from": 10000, "to": 25000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "counterparty_check",
+      "section": "contracts",
+      "short_title": "Проверка контрагента",
+      "title": "Экспресс-проверка контрагента",
+      "emoji": "📑",
+      "description": "Экспресс-проверка по ЕГРЮЛ, картотеке арбитражных дел, сведениям о банкротстве и исполнительным производствам.",
+      "price": {"kind": "from", "from": 5000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "client_memo",
+      "section": "contracts",
+      "short_title": "Клиентский меморандум",
+      "title": "Клиентский меморандум (аналитическая записка с выводами и рисками)",
+      "emoji": "📑",
+      "description": "Аналитическая записка с выводами и описанием рисков.",
+      "price": {"kind": "range", "from": 30000, "to": 60000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "corp_decisions",
+      "section": "contracts",
+      "short_title": "Корпоративные решения, протоколы",
+      "title": "Корпоративные решения, протоколы, внутренние нормативные акты",
+      "emoji": "📑",
+      "description": "Подготовка корпоративных решений, протоколов и внутренних нормативных актов.",
+      "price": {"kind": "range", "from": 10000, "to": 15000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "deal_structuring",
+      "section": "contracts",
+      "short_title": "Структурирование сделки",
+      "title": "Структурирование сделки: схема владения, защита активов, налоговое планирование",
+      "emoji": "📑",
+      "description": "Структурирование сделки: схема владения, защита активов, налоговое планирование.",
+      "price": {"kind": "from", "from": 100000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "other_hourly",
+      "section": "contracts",
+      "short_title": "Иные услуги (почасовая)",
+      "title": "Иные услуги — почасовая ставка",
+      "emoji": "📑",
+      "description": "Иные услуги, не вошедшие в другие позиции прайса, оплачиваются по часам.",
+      "price": {"kind": "from", "from": 8000, "unit": "rub_per_hour"},
+      "price_note": null
+    },
+    {
+      "id": "sub_start",
+      "section": "subscription",
+      "short_title": "Тариф «Старт»",
+      "title": "«Старт» — для ИП и микробизнеса",
+      "emoji": "🗓",
+      "description": "Абонентское обслуживание для ИП и микробизнеса, до 5 часов в месяц.",
+      "price": {"kind": "from", "from": 50000, "unit": "rub_per_month"},
+      "hours": 5,
+      "price_note": null
+    },
+    {
+      "id": "sub_standard",
+      "section": "subscription",
+      "short_title": "Тариф «Стандарт»",
+      "title": "«Стандарт» — для малого бизнеса",
+      "emoji": "🗓",
+      "description": "Абонентское обслуживание для малого бизнеса, до 10 часов в месяц.",
+      "price": {"kind": "from", "from": 85000, "unit": "rub_per_month"},
+      "hours": 10,
+      "price_note": null
+    },
+    {
+      "id": "sub_standard_plus",
+      "section": "subscription",
+      "short_title": "Тариф «Стандарт +»",
+      "title": "«Стандарт +» — для среднего бизнеса",
+      "emoji": "🗓",
+      "description": "Абонентское обслуживание для среднего бизнеса, до 20 часов в месяц.",
+      "price": {"kind": "from", "from": 150000, "unit": "rub_per_month"},
+      "hours": 20,
+      "price_note": null
+    },
+    {
+      "id": "sub_business",
+      "section": "subscription",
+      "short_title": "Тариф «Бизнес»",
+      "title": "«Бизнес»",
+      "emoji": "🗓",
+      "description": "Абонентское обслуживание, до 50 часов в месяц.",
+      "price": {"kind": "from", "from": 350000, "unit": "rub_per_month"},
+      "hours": 50,
+      "price_note": null
+    },
+    {
+      "id": "pkg_debt",
+      "section": "packages",
+      "short_title": "Пакет «Взыскание дебиторки»",
+      "title": "«Взыскание дебиторки»: претензия + иск + ведение первой инстанции (только НН)",
+      "emoji": "📦",
+      "description": "В пакет входят претензия, исковое заявление и ведение дела в суде первой инстанции (только Нижний Новгород). Для Москвы и Санкт-Петербурга — индивидуальный расчёт.",
+      "price": {"kind": "from", "from": 70000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "pkg_contract",
+      "section": "packages",
+      "short_title": "Пакет «Безопасный договор»",
+      "title": "«Безопасный договор»: разработка 3 типовых договоров под бизнес клиента (только НН)",
+      "emoji": "📦",
+      "description": "Разработка трёх типовых договоров под бизнес клиента (только Нижний Новгород). Для Москвы и Санкт-Петербурга — индивидуальный расчёт.",
+      "price": {"kind": "from", "from": 50000, "unit": "rub"},
+      "price_note": null
+    },
+    {
+      "id": "pkg_audit",
+      "section": "packages",
+      "short_title": "Пакет «Проверка бизнеса»",
+      "title": "«Проверка бизнеса»: аудит договорной базы + кадровые документы + рекомендации (только НН)",
+      "emoji": "📦",
+      "description": "Аудит договорной базы, проверка кадровых документов и рекомендации (только Нижний Новгород). Для Москвы и Санкт-Петербурга — индивидуальный расчёт.",
+      "price": {"kind": "from", "from": 60000, "unit": "rub"},
+      "price_note": null
+    }
+  ]
+}
